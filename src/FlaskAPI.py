@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Define a simple route
 @app.route('/')
 def home():
-    return "Welcome to the Flask API!"
+    return "Welcome to the MY Flask API!"
 
 # Define an API endpoint
 @app.route('/api/data', methods=['GET'])
